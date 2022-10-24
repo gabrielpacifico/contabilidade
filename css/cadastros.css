@@ -1,0 +1,119 @@
+.formarea{
+    background-color: #252830;
+    padding: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.formarea h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #cbd0f7;
+    font-size: 21pt;
+}
+.formarea i{
+    font-size: 18pt;
+    color: #cbd0f7;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+#formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#formulario label{
+    font-size: 16pt;
+    color: #cbd0f7;
+    font-weight: 500;
+    text-align: start;
+}
+.select{
+    width: 50%;
+    margin-bottom: 30px;
+}
+#select{
+    background-color: #575a63;
+    color: #cbd0f7;
+    border: 0;
+}
+input::placeholder{
+    color: #cbd0f7 !important;
+}
+form [type="submit"]{
+    display: block;
+    background-color: #3749d1;
+    color: #cbd0f7;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+#voltar{
+    text-decoration: none;
+    color: #cbd0f7;
+    background-color: #3749d1;
+    font-size: 17pt;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formarea span{
+    color: #cbd0f7;
+    background-color: rgb(207, 43, 43);
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 29px -15px rgba(0,0,0,1);
+    -moz-box-shadow: 10px 10px 29px -15px rgba(0,0,0,1);
+    box-shadow: 10px 10px 29px -15px rgba(0,0,0,1);
+}
+.buttons{
+    display: flex;
+}
+#btn-remove{
+    text-decoration: none;
+    display: block;
+    margin-right: 10px;
+    background-color: #ce3f1b;
+    color: #cbd0f7;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+#accept-user{
+    display: inline-block;
+    color: #cbd0f7;
+    text-decoration: none;
+    background-color: #3749d1;
+    padding: 15px;
+    border-radius: 10px;
+}
+#remove-user{
+    margin-right: 20px;
+    display: inline-block;
+    color: #cbd0f7;
+    text-decoration: none;
+    background-color: #ce3f1b;
+    padding: 15px;
+    border-radius: 10px;
+}

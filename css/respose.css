@@ -1,0 +1,73 @@
+@media (max-width: 600px){
+    /* MENU PRINCIPAL */
+    div.title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    div.subtitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    div.resume2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: start;
+        width: 100%;
+    }
+    div.resume2 h1{
+        font-size: 19px;
+    }
+    section.quadros{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    section hr{
+        margin-top: 20px;
+    }
+    div.align-center2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .proc{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .sec{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .res{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    /* FIM MENU PRINCIPAL */
+
+    /* MAPA PROCESSOS */
+    .tablearea h1{
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+    div.search{
+        width: 100%;
+        margin-left: 0;
+    }
+    div#table{
+        font-size: 16px;
+        width: 100%;
+        margin-left: 0;
+    }
+    div.aviso{
+        width: 100%;
+        font-size: 17px;
+    }
+}
