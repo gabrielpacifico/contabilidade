@@ -35,7 +35,7 @@ $ano = mysqli_real_escape_string($conexao, $_GET['ano']);
 
         <div class="bootstrap-iso">
             <div id="table">
-                <table class="table table-borderless table-dark table-hover">
+                <table class="table table-borderless table-responsive table-dark table-hover" id="hide-table">
                     <thead>
                         <tr>
                             <th>Mês</th>
@@ -60,7 +60,7 @@ $ano = mysqli_real_escape_string($conexao, $_GET['ano']);
                         $rows = mysqli_num_rows($res);
 
                         if($rows == 0){
-                            echo "<style>table{ display: none; } </style>
+                            echo "<style>#hide-table{ display: none; } </style>
                                 <div class='aviso'>
                                 <div class='center'><span>Nenhum resultado encontrado, tente novamente!</span></div>
                                 </div>";

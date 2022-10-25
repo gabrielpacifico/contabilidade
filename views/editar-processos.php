@@ -45,7 +45,7 @@ $ano = date('Y');
 
         <div class="bootstrap-iso">
             <div id="table">
-                <table class="table table-borderless table-responsive table-dark table-hover">
+                <table class="table table-borderless table-responsive table-dark table-hover" id="hide-table">
                     <thead>
                         <tr>
                             <th>Mês</th>
@@ -62,7 +62,7 @@ $ano = date('Y');
                     $rows = mysqli_num_rows($query);
 
                     if($rows == 0){
-                        echo "<style>table{ display: none; } </style>
+                        echo "<style>#hide-table{ display: none; } </style>
                             <div class='aviso'>
                             <div class='center'><span>Nenhum resultado encontrado, tente novamente!</span></div>
                             </div>";
